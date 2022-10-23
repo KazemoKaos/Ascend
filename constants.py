@@ -5,7 +5,7 @@ import paths
 version = "v1.0-pre"
 
 DISPLAY_SIZE = [1000, 700]  # default only in menus. CHANGES BASED ON TILE RESOLUTION IN GAME AND EDITOR.
-DISPLAY_NAME = "Escape"
+DISPLAY_NAME = "Ascend"
 FPS = 66
 
 COLOURS = {
