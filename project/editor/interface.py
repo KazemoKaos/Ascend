@@ -28,7 +28,7 @@ class Interface:
         self.menu_button = pygame_gui.TextButton(
             [display.get_width() - self.level.EDITOR_SIZE, 0, self.level.EDITOR_SIZE, self.level.TILE_SIZE],
             (20, 20, 20), (40, 40, 40),
-            "back to menu", 20, (200, 200, 200), constants.FONTS["main"])
+            "Back To Menu", 20, (200, 200, 200), constants.FONTS["main"])
 
         self.level_name = pygame_gui.RectEntry(
             [display.get_width() - self.level.EDITOR_SIZE,
@@ -37,7 +37,7 @@ class Interface:
             (160, 160, 160), (160, 160, 160),
             (255, 255, 255), (30, 100, 30),
             (160, 160, 160),  (30, 100, 30),
-            "enter level name", 25, (0, 0, 0), constants.FONTS["main"],
+            "Enter Level Name", 25, (0, 0, 0), constants.FONTS["main"],
             10, 5,
             False)
 
@@ -45,13 +45,13 @@ class Interface:
             [display.get_width() - self.level.EDITOR_SIZE/2, self.level.TILE_SIZE*2,
              self.level.EDITOR_SIZE/2, self.level.TILE_SIZE],
             (10, 40, 10), (20, 100, 20),
-            "save", 20, (200, 200, 200), constants.FONTS["main"])
+            "Save", 20, (200, 200, 200), constants.FONTS["main"])
 
         self.load_button = pygame_gui.TextButton(
             [display.get_width() - self.level.EDITOR_SIZE, self.level.TILE_SIZE*2,
              self.level.EDITOR_SIZE/2, self.level.TILE_SIZE],
             (40, 40, 40), (60, 60, 60),
-            "load", 20, (200, 200, 200), constants.FONTS["main"])
+            "Load", 20, (200, 200, 200), constants.FONTS["main"])
 
         self.tile_size = pygame_gui.RectEntry(
             [display.get_width() - self.level.EDITOR_SIZE,
@@ -90,7 +90,7 @@ class Interface:
             [display.get_width() - self.level.TILE_SIZE*3,
              self.level.TILE_SIZE*3, self.level.TILE_SIZE*3, self.level.TILE_SIZE],
             (100, 20, 20), (130, 30, 30),
-            "new", 20, (200, 200, 200), constants.FONTS["main"])
+            "New", 20, (200, 200, 200), constants.FONTS["main"])
 
         # Selector
         origin = [self.level.DISPLAY_SIZE[0], self.level.TILE_SIZE*5]
@@ -166,13 +166,13 @@ class Interface:
             [display.get_width() - self.level.EDITOR_SIZE, origin[1] + padding*19,
              self.level.EDITOR_SIZE/2, self.level.TILE_SIZE],
             (100, 20, 20), (130, 30, 30),
-            "reset", 20, (200, 200, 200), constants.FONTS["main"])
+            "Reset", 20, (200, 200, 200), constants.FONTS["main"])
 
         self.patrol_confirm_button = pygame_gui.TextButton(
             [display.get_width() - self.level.EDITOR_SIZE/2, origin[1] + padding*19,
              self.level.EDITOR_SIZE/2, self.level.TILE_SIZE],
             (10, 40, 10), (20, 100, 20),
-            "confirm", 20, (200, 200, 200), constants.FONTS["main"])
+            "Confirm", 20, (200, 200, 200), constants.FONTS["main"])
 
         # Toggle Buttons
         self.show_keys = True
@@ -180,14 +180,14 @@ class Interface:
             [self.level.DISPLAY_SIZE[0], self.level.DISPLAY_SIZE[1] - self.level.TILE_SIZE,
              self.level.EDITOR_SIZE/2, self.level.TILE_SIZE],
             (40, 40, 40), (60, 60, 60),
-            "toggle keys", 17, (200, 200, 200), constants.FONTS["main"])
+            "Toggle Keys", 17, (200, 200, 200), constants.FONTS["main"])
 
         self.show_patrols = True
         self.show_patrols_button = pygame_gui.TextButton(
             [self.level.DISPLAY_SIZE[0] + self.level.EDITOR_SIZE/2, self.level.DISPLAY_SIZE[1] - self.level.TILE_SIZE,
              self.level.EDITOR_SIZE/2, self.level.TILE_SIZE],
             (40, 40, 40), (60, 60, 60),
-            "toggle patrols", 17, (200, 200, 200), constants.FONTS["main"])
+            "Toggle Patrol", 17, (200, 200, 200), constants.FONTS["main"])
 
     def display_keys(self):
         return self.show_keys

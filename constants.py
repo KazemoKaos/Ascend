@@ -2,7 +2,7 @@
 
 import paths
 
-version = "v1.0-pre"
+version = ""
 
 DISPLAY_SIZE = [1000, 700]  # default only in menus. CHANGES BASED ON TILE RESOLUTION IN GAME AND EDITOR.
 DISPLAY_NAME = "Ascend"

@@ -39,13 +39,13 @@ class Menu:
         self.continue_button = pygame_gui.TextButton(
             [self.menux, self.menuy + 40, 150, 40],
             constants.COLOURS["panel"], constants.COLOURS["panel-hover"],
-            "select level",
+            "Select Level",
             constants.FONTS["sizes"]["large"], constants.FONTS["colour"], constants.FONTS["main"])
 
         self.editor_button = pygame_gui.TextButton(
             [self.menux, self.menuy + 90, 150, 40],
             constants.COLOURS["panel"], constants.COLOURS["panel-hover"],
-            "editor",
+            "Editor",
             constants.FONTS["sizes"]["large"], constants.FONTS["colour"], constants.FONTS["main"])
 
         self.version = pygame_gui.Text(
@@ -53,12 +53,12 @@ class Menu:
             constants.FONTS["sizes"]["medium"], constants.FONTS["colour"], constants.FONTS["main"],
             3, constants.DISPLAY_SIZE[1] - 20)
 
-        self.project_github = WebLink("GitHub Page",
-                                      "https://github.com/Ben-Ryder/Escape",
+        self.project_github = WebLink("",
+                                      "",
                                       470, constants.DISPLAY_SIZE[1] - 20)
 
-        self.personal_site = WebLink("By Ben Ryder",
-                                     "https://github.com/Ben-Ryder",
+        self.personal_site = WebLink("",
+                                     "",
                                      constants.DISPLAY_SIZE[0] - 87, constants.DISPLAY_SIZE[1] - 20)
 
         self.run()
