@@ -28,6 +28,4 @@ Here are a few things to remember:
 - Make sure all patrol points are connected, otherwise the enemy wont be able to get there and it will cause an error.  
 *See the bottom of the file `/project/game/level.py` to see the full documentation for levels and validation*  
 
-
-
-Ben-Ryder 2019
+Credit: Ben Ryder
