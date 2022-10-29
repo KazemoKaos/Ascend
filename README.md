@@ -1,4 +1,4 @@
-# Escape
+# Ascend
 You are trapped. To escape you must collect all the keys and get to the exit while avoiding all enemy patrols. If they touch you, you're dead.  
 *The game also comes with a level editor, allowing you to create and play your own custom levels.*  
 
