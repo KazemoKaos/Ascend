@@ -1,4 +1,4 @@
-# Ben-Ryder 2019
+
 
 from pygame_gui.text import *
 from pygame_gui.image import *

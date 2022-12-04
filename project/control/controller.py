@@ -1,4 +1,4 @@
-# Ben-Ryder 2019
+
 
 import os
 import pygame
@@ -10,7 +10,7 @@ import exceptions
 import project.menus as menus
 import project.game.controller as game
 import project.editor.controller as editor
-
+from pygame import mixer
 
 class ApplicationController:
     """ runs the whole application, changing section running based on states """
@@ -31,10 +31,12 @@ class ApplicationController:
         self.game_reference = None
 
     def run(self):
+        mixer.music.load("01. Title.mp3")
+        mixer.music.play(-1)
         while self.state != "quit":
             if self.state == "menu":
                 self.run_menu()
-
+                
             elif self.state == "load_game":
                 self.run_loadgame()
 

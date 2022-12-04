@@ -1,4 +1,4 @@
-# Ben-Ryder 2019
+
 
 from project.game.controller import *
 from project.game.convertions import *

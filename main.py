@@ -1,4 +1,4 @@
-# Ben-Ryder 2019
+
 
 import logging
 logging.basicConfig(filename='main.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
@@ -14,6 +14,7 @@ try:
 
     if __name__ == "__main__":
         main()
+
 
 except Exception as e:
     logging.exception("caught at main")

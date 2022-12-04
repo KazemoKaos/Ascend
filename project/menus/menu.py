@@ -1,4 +1,4 @@
-# Ben-Ryder 2019
+
 
 import webbrowser
 import pygame
@@ -7,7 +7,6 @@ import paths
 import constants
 
 import pygame_gui
-
 
 class Menu:
     """ top section for user to pick state. new_game, leaderboard ..."""
